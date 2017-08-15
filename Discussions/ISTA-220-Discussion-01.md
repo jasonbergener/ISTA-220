@@ -1,8 +1,8 @@
-### MSSA Cohort 3
-### Course: ISTA-220
-### Lesson Plan: 01
-### Name: Jason Bergener
-### Date: August 7, 2017
+##### MSSA Cohort 3
+##### Course: ISTA-220
+##### Lesson Plan: 01
+##### Name: Jason Bergener
+##### Date: August 7, 2017
 
 
 1. What is a console app?
