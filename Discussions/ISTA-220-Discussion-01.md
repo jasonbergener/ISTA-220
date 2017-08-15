@@ -15,7 +15,7 @@
 1. What is the starting point in a graphical application?
     - In a UWP app, the App.xaml file provides the entry point at which the application starts running.
 1. What does Build do?
-    - This action compiles the C# code, resulting in a program that you can run.
+    #### - This action compiles the C# code, resulting in a program that you can run.
 1. What does Debug do?
     - A command window opens and the program runs. If you run the program by using the Start Debugging command on the Debug menu, the application runs, but the command window closes immediately without waiting for you to press a key.
 
