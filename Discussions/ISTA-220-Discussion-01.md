@@ -1,16 +1,11 @@
 ### MSSA Cohort 3
-
 ### Course: ISTA-220
-
 ### Lesson Plan: 01
 ### Name: Jason Bergener
-
 ### Date: August 7, 2017
 
-
-
 1. What is a console app?
-    - **Answer: A console application is an application that runs in a Command Prompt window instead of providing a graphical user interface (GUI)**
+    - **Answer: A console application is an application that runs in a Command Prompt window instead of providing a graphical user interface (GUI).**
 2. What does Main() (the main method) do in a console application?
     - **Answer: The Main method designates the program’s entry point. This method should be defined in the manner specified in the Program class as a static method.**
 3. What is the purpose of a namespace?
