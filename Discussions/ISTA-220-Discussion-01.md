@@ -4,6 +4,7 @@
 ### Name: Jason Bergener
 ### Date: August 7, 2017
 
+
 1. What is a console app?
     - **Answer: A console application is an application that runs in a Command Prompt window instead of providing a graphical user interface (GUI).**
 2. What does Main() (the main method) do in a console application?
