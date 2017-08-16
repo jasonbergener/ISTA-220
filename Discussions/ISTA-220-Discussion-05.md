@@ -5,11 +5,11 @@
 #### Date: August 14, 2017
 
 1. What is a compound assignment operator? How does it work?
-    - **Compound assignment operators are a combination of an arithmetic and assignment operators. It is basically a shorthand way to perform arithmetic where the result is stored in one of the operands. For example, instead of “a = a + b;” you write “a += b;”. It works with all the arithmetic operators and in all cases the arithmetic operator precedes the assignment operator.**
+    - **Compound assignment operators are a combination of an arithmetic and assignment operators. It is basically a shorthand way to perform arithmetic where the result is stored in one of the operands. For example, instead of `a = a + b;` you write `a += b;`. It works with all the arithmetic operators and in all cases the arithmetic operator precedes the assignment operator.**
 1. List all the compound assignment operators.
     - **The compound assignment operators are +=, -=,** ***=, /=, and %=.**
 1. List two ways to increment a numeric variable by 5. List two ways to decrement a numeric variable by 50.
-    - **Two ways to increment a numeric variable by 5 are, “var = var + 5;” and “var += 5;”. Two ways to decrement a numeric variable by 50 are, “var = var – 50;” and “var -= 50;”.**
+    - **Two ways to increment a numeric variable by 5 are, `var = var + 5;` and `var += 5;`. Two ways to decrement a numeric variable by 50 are, `var = var – 50;` and `var -= 50;`.**
 1. How long does a while loop run?
     - **A while loop will run as long as the given condition is true.**
 1. What happens if you don't change the loop variable in the body of the while loop block?
