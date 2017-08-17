@@ -1,0 +1,6 @@
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\bin\Debug\Exercises.exe.config
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\bin\Debug\Exercises.exe
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\bin\Debug\Exercises.pdb
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.exe
+c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.pdb
