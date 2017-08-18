@@ -43,7 +43,7 @@ namespace Exercises
         }
         private static void exercise1()
         {
-            Console.WriteLine("This is Exercise 1");
+            Console.WriteLine("This Exercise accepts 10 test scores between 0-100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
             int testNums = 10;
             for (int i = 0; i < testNums; i++)
@@ -80,7 +80,7 @@ namespace Exercises
         }
         private static void exercise2()
         {
-            Console.WriteLine("This is Exercise 2");
+            Console.WriteLine("This Exercise accepts test scores between 0 - 100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
             int testNums = getInput("How many test scores do you want to enter?: ");
             for (int i = 0; i < testNums; i++)
@@ -117,7 +117,7 @@ namespace Exercises
         }
         private static void exercise3()
         {
-            Console.WriteLine("This is Exercise 3");
+            Console.WriteLine("This Exercise accepts test scores between 0-100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
             bool done = false;
             Console.Write("Enter the first test score: ");
@@ -136,7 +136,7 @@ namespace Exercises
                         }
                         else Console.Write("Enter a score between 0 and 100: ");
                     } while (valid == false);
-                    Console.Write("Press any key to continue or N to stop.");
+                    Console.Write("Type N then enter to stop or press enter to continue.");
                     string more = Console.ReadLine();
                     if (more.ToLower() == "n")
                         done = true;
