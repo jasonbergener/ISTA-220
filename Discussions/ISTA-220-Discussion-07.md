@@ -8,8 +8,8 @@
 **A class systematically arranges information and behavior into a meaningful entity.**
 1.	What are the two purposes of encapsulation?  
 **The two purposes of encapsulation are:**  
-    - **To combine methods and data within a class; in other words, to support classification.**  
-    - **To control the accessibility of the methods and data; in other words, to control the use of the class.**
+    1. **To combine methods and data within a class; in other words, to support classification.**  
+    1. **To control the accessibility of the methods and data; in other words, to control the use of the class.**
 1.	How do you instantiate an instance of a class? How do you access that instance?  
 **To instantiate an instance of a class, you create a variable specifying the class as its type, and then you initialize the variable with some valid data. For example, `Homework h;` declares the variable h with Homework as its type. `h = new Homework();` initializes a new instance of Homework and assigns it to the variable h. You access the instance by calling the variable it is assigned to (h in this example).**
 1.	What is the default access of the fields and methods of a class? How do you change the default?  
@@ -36,6 +36,6 @@
     Who is Alexander Stephanov?  
 **Alexander Stephanov is a Russian computer programmer, best known as an advocate of generic programming and as the primary designer and implementer of the C++ Standard Template Library, which he started to develop around 1992 while employed at HP Labs. He had earlier been working for Bell Labs close to Andrew Koenig and tried to convince Bjarne Stroustrup to introduce something like Ada generics in C++. He is credited with the notion of concept.**  
    What do you think about this quote?  
-**While this quote may have been true about OOP back when it was new, OOP has come a long way and includes implementation of interfaces that span multiple types. After reading some of his responses to other questions in the interview this quote comes from, I get the feeling that Stephanov is just not opened minded to a different way of approaching data structuring. OOP starts with objects and then builds levels of specificity under each type until a unique type is established. For example Object>Automobile>Car>KIA>Rio. The properties of an Automobile apply to a KIA Rio. Stephanov would prefer to perfect the implementation of the Rio first, and then build up from there. Also instead of class methods with inheritance and polymorphism, he seeks to develop algorithms that work across all data types. Even he has admitted that it is still a work in progress, and he hasn't achieved that yet.**  
+**While this quote may have been true about OOP back when it was new, OOP has come a long way and includes implementation of interfaces that span multiple types. After reading some of his responses to other questions in the interview this quote comes from, I get the feeling that Stephanov is just not opened minded to a different way of approaching data structuring. OOP starts with objects and then builds levels of specificity under each type until a unique type is established. For example Object>Automobile>Car>KIA>Rio. The properties of an Automobile apply to a KIA Rio. Stephanov would prefer to perfect the implementation of the Rio first, and then build up from there. Also instead of class methods with inheritance and polymorphism, he seeks to develop algorithms that work across all data types. Even he has admitted that it is still a work in progress, and he hasn't achieved that yet.**
 
 ![](https://tenor.com/view/haters-hatersgonnahate-gonna-hate-taylor-gif-5239136)
