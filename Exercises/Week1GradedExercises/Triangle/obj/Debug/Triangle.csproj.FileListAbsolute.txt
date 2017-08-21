@@ -1,0 +1,6 @@
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\bin\Debug\Triangle.exe.config
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\bin\Debug\Triangle.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\bin\Debug\Triangle.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\obj\Debug\Triangle.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\obj\Debug\Triangle.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Triangle\obj\Debug\Triangle.csprojResolveAssemblyReference.cache

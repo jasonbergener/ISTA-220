@@ -1,0 +1,6 @@
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.exe.config
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.exe
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.pdb
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.exe
+c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.pdb
