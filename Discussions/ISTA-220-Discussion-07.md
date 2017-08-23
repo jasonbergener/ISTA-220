@@ -38,4 +38,4 @@
    What do you think about this quote?  
 **While this quote may have been true about OOP back when it was new, OOP has come a long way and includes implementation of interfaces that span multiple types. After reading some of his responses to other questions in the interview this quote comes from, I get the feeling that Stephanov is just not opened minded to a different way of approaching data structuring. OOP starts with objects and then builds levels of specificity under each type until a unique type is established. For example Object>Automobile>Car>KIA>Rio. The properties of an Automobile apply to a KIA Rio. Stephanov would prefer to perfect the implementation of the Rio first, and then build up from there. Also instead of class methods with inheritance and polymorphism, he seeks to develop algorithms that work across all data types. Even he has admitted that it is still a work in progress, and he hasn't achieved that yet.**
 
-![](https://tenor.com/view/haters-hatersgonnahate-gonna-hate-taylor-gif-5239136)
+![](https://tenor.com/view/haters-hatersgonnahate-gonna-hate-taylor-gif-5239136.gif)
