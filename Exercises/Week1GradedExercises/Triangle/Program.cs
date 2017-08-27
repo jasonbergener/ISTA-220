@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Triangle
 {
@@ -11,9 +7,9 @@ namespace Triangle
         static void Main(string[] args)
         {
             Console.WriteLine("This application uses Herron's formula to find the area of a triangle.");
-            double a = getInput("a");
-            double b = getInput("b");
-            double c = getInput("c");
+            double a = GetInput("a");
+            double b = GetInput("b");
+            double c = GetInput("c");
             double p = (a + b + c) / 2;
             double area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
             if (area >= 0.000000001)
@@ -21,13 +17,21 @@ namespace Triangle
             else
                 Console.WriteLine("The lengths given are impossible for a triangle.");
         }
-        private static double getInput(string s)
+        private static double GetInput(string s)
         {
             double value;
             do
             {
                 Console.Write($"Enter a the length of side {s}: ");
-                value = double.Parse(Console.ReadLine());
+                try
+                {
+                    value = double.Parse(Console.ReadLine());
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Please use only numbers.");
+                    value = -1;
+                }
             } while (value <= 0);
             return value;
         }

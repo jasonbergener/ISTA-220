@@ -4,3 +4,11 @@ c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Qu
 c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.csprojResolveAssemblyReference.cache
 c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.exe
 c:\users\jason\documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 1\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\obj\Debug\Quadratic.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.exe.config
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week1GradedExercises\Quadratic\bin\Debug\Quadratic.pdb
