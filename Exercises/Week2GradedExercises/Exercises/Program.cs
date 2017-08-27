@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercises
 {
@@ -11,136 +7,85 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            switch (getInput("Do you want to run Exercise 1, 2, or 3? "))
+            switch (GetInput("Do you want to run Exercise 1, 2, or 3? "))
             {
                 case 1:
-                    exercise1();
+                    Exercise1();
                     break;
                 case 2:
-                    exercise2();
+                    Exercise2();
                     break;
                 case 3:
-                    exercise3();
+                    Exercise3();
+                    break;
+                default:
+                    Console.WriteLine("That wasn't 1, 2, or 3. Maybe next time.");
                     break;
             }
         }
-        private static int getInput(string s)
+        private static int GetInput(string s)
         {
-            int value;
-
-            try
+            do
             {
-                Console.Write(s);
-                value = int.Parse(Console.ReadLine());
-                return value;
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("The value you entered was not an integer.");
-                value = 0;
-                return value;
-            }
+                try
+                {
+                    Console.Write(s);
+                    int value = int.Parse(Console.ReadLine());
+                    if (value >= 0 && value <= 100)
+                    {
+                        return value;
+                    }
+                    else Console.WriteLine("Enter a value between 0 and 100.");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("The value you entered was not an integer.");
+                }
+            } while (true);
         }
-        private static void exercise1()
+        private static void Exercise1()
         {
             Console.WriteLine("This Exercise accepts 10 test scores between 0-100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
             int testNums = 10;
             for (int i = 0; i < testNums; i++)
             {
-                Console.Write("Enter a test score: ");
-                try
-                {
-                    bool valid = false;
-                    do
-                    {
-                        int input = int.Parse(Console.ReadLine());
-                        if (input >= 0 && input <= 100)
-                        {
-                            testScores.Add(input);
-                            valid = true;
-                        }
-                        else Console.Write("Enter a score between 0 and 100: ");
-                    } while (valid == false);
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("The value you entered was invalid.");
-                }
-
+                testScores.Add(GetInput("Enter a test score: "));
             }
-            int total = 0;
-            int num = 0;
-            foreach (int score in testScores)
-            {
-                total += score;
-                ++num;
-            }
-            results(total, num);
+            Results(testScores);
         }
-        private static void exercise2()
+        private static void Exercise2()
         {
             Console.WriteLine("This Exercise accepts test scores between 0 - 100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
-            int testNums = getInput("How many test scores do you want to enter?: ");
+            int testNums = GetInput("How many test scores do you want to enter?: ");
             for (int i = 0; i < testNums; i++)
-            {
-                Console.Write("Enter a test score: ");
-                try
                 {
-                    bool valid = false;
-                    do
-                    {
-                        int input = int.Parse(Console.ReadLine());
-                        if (input >= 0 && input <= 100)
-                        {
-                            testScores.Add(input);
-                            valid = true;
-                        }
-                        else Console.Write("Enter a score between 0 and 100: ");
-                    } while (valid == false);
+                    testScores.Add(GetInput("Enter a test score: "));
                 }
-                catch (Exception)
-                {
-                    Console.WriteLine("The value you entered was invalid.");
-                }
-
-            }
-            int total = 0;
-            int num = 0;
-            foreach (int score in testScores)
-            {
-                total += score;
-                ++num;
-            }
-            results(total, num);
+            Results(testScores);
         }
-        private static void exercise3()
+        private static void Exercise3()
         {
             Console.WriteLine("This Exercise accepts test scores between 0-100 and returns the average score and corresponding letter grade.");
             ArrayList testScores = new ArrayList();
-            bool done = false;
-            Console.Write("Enter the first test score: ");
-            while (!done)
+            while (true)
             {
                 try
                 {
-                    bool valid = false;
-                    do
-                    {
-                        int input = int.Parse(Console.ReadLine());
-                        if (input >= 0 && input <= 100)
-                        {
-                            testScores.Add(input);
-                            valid = true;
-                        }
-                        else Console.Write("Enter a score between 0 and 100: ");
-                    } while (valid == false);
-                    Console.Write("Type N then enter to stop or press enter to continue.");
+                    Console.Write("Enter a score or N to stop: ");
                     string more = Console.ReadLine();
                     if (more.ToLower() == "n")
-                        done = true;
-                    else Console.Write("Enter the next score: ");
+                        break;
+                    else
+                    {
+                        int value = int.Parse(more);
+                        if (value >= 0 && value <= 100)
+                        {
+                            testScores.Add(value);
+                        }
+                        else Console.WriteLine("Enter a value between 0 and 100.");
+                    }
                 }
                 catch (Exception)
                 {
@@ -148,18 +93,18 @@ namespace Exercises
                 }
 
             }
+            Results(testScores);
+        }
+        private static void Results(ArrayList a)
+        {
             int total = 0;
             int num = 0;
-            foreach (int score in testScores)
+            foreach (int score in a)
             {
                 total += score;
                 ++num;
             }
-            results(total, num);
-        }
-        private static void results(int t, int n)
-        {
-            int average = t / n;
+            int average = total / num;
             string grade;
             if (average >= 90)
                 grade = "A";

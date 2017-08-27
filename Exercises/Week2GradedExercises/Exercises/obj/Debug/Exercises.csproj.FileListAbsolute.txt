@@ -4,3 +4,4 @@ c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exerci
 c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.csprojResolveAssemblyReference.cache
 c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.exe
 c:\users\jason\documents\visual studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week2GradedExercises\Exercises\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
