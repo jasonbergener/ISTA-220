@@ -9,7 +9,7 @@
 1. How do you call a method that takes an arbitrary number of arguments?  
 **The effect of the params keyword is that it allows you to call the method by using any number of integer arguments without worrying about creating an array. For example: `int ex = Example(int1, int2);`**
 1. Why can't you use an array to pass an arbitrary number of arguments to a method?  
-**You can't use an array to pass an arbitrary number of arguments to a method that contains a value type params array because when the method is called, the compiler just counts the number of arguments, creates an array of that size, fills the array with the arguments, and then calls the method by passing the single array parameter. If you passed an array as an argument, it would only be considered one argument (the memory address pointer). You can however pass an array if the method is defined with an object type params array.**
+**You can't use an array to pass an arbitrary number of arguments to a method because an array's size is fixed so it wouldn't be arbitrary.**
 1. How many parameters can a method have?  
 **Methods can only contain one params array, and it must be the last parameter.**
 1. Do parameter arguments have to have the same type?  
