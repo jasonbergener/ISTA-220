@@ -8,7 +8,7 @@
 **Inheritance enables derived classes to use the methods and fields defined in the base class. Once you write the common methods and fields in the base class, you don't repeat yourself for each of the derived classes.**
 1. What is the syntax of a derived class that inherits from a base class?  
 **The syntax of a derived class that inherits from a base class is class DerivedClass : BaseClass. For example: `class Human : Mammal`**
-1. Do all user defined types (classes and structs) inherit from some base class? If so, what is it?  
+1. Do all user defined types (classes and structs) inherit from some base class? If so, what is it?  
 **All classes inherit from System.Object. User defined structs cannot use user defined inheritance hierarchy, but inherit from the abstract class System.ValueType.**
 1. What happens if you do not have a default constructor in a base class when creating a derived class?  
 **If you do not have any constructors in a base class, the compiler generates a default constructor for you. If you have defined a non-default constructor in a base class, the derived classes must call a base class constructor or it will result in a compile-time error.**
