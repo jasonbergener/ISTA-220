@@ -8,8 +8,8 @@
 **You can define an interface that includes methods and specify that  classes implement this interface. In this way, an interface is similar to a contract. If a class implements an interface, the interface guarantees that the class contains all the methods specified in the interface.**
 1. How do you define an interface?  
 **Defining an interface is syntactically similar to defining a class, except that you use the interface keyword instead of the class keyword. For example, `interface IMyInterface`.**
-1. Can an interface have variables, fields, or properties?  
-**An interface cannot have variables, fields, or properties.**
+1. Can an interface have variables, fields, or properties?  
+**An interface cannot have variables, fields, or properties.**
 1. How do you define a method in an interface?  
 **Within the interface, you declare methods exactly as in a class or a structure, except that you never specify an access modifier (public, private, or protected). Additionally, the methods in an interface have no implementation; they are simply declarations, and all types that implement the interface must provide their own implementations. Consequently, you replace the method body with a semicolon. For example, `double ReturnsDoubleTakesInt(int i);`.**
 1. Can you instantiate an object through an interface? Why or why not?  
