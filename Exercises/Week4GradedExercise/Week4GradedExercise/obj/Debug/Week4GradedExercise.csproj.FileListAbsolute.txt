@@ -1,0 +1,7 @@
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\bin\Debug\Week4GradedExercise.exe.config
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\bin\Debug\Week4GradedExercise.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\bin\Debug\Week4GradedExercise.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\obj\Debug\Week4GradedExercise.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\obj\Debug\Week4GradedExercise.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\obj\Debug\Week4GradedExercise.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week4GradedExercise\Week4GradedExercise\obj\Debug\Week4GradedExercise.pdb
