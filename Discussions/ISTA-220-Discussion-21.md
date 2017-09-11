@@ -5,11 +5,11 @@
 #### Date: September 11, 2017
 
 1. Give five examples (using valid C# code) of the five bitwise operators listed in the text.  
-**The not operator is the tilde and changes all the 1s to 0s and vice versa in the 32 bits that represent the int: `int x = ~150;` declares an integer type variable x and assigns it the value -151.**  
-**The left shift operator is two consecutive less than operators (<<) that takes an integer argument and shits the bits that many places to the left. The leftmost bits are discarded and zeros are added to the right: `int x = 150 << 3;` declares an integer type variable x and assigns it the value 1200.**  
-**The or operator is a single pipe (the vertical line) and performs a bitwise or operation, returning a value containing a 1 in each position in which either of the operands has a 1: `int x = 150 | 15;` declares an integer type variable x and assigns it the value 159.**  
-**The and operator is an ampersand that performs a bitwise and operation. And is similar to the bitwise or operator, but it returns a value containing a 1 in each position where both of the operands have a 1:`int x = 150 & 15;` declares an integer type variable x and assigns it the value 6.**  
-**The xor operator is a carat and performs a bitwise exclusive or operation, returning a 1 in each bit where there is a 1 in one operand or the other but not both:`int x = 150 ^ 15;` declares an integer type variable x and assigns it the value 153.**
+    - **The not operator is the tilde and changes all the 1s to 0s and vice versa in the 32 bits that represent the int: `int x = ~150;` declares an integer type variable x and assigns it the value -151.**  
+    - **The left shift operator is two consecutive less than operators (<<) that takes an integer argument and shits the bits that many places to the left. The leftmost bits are discarded and zeros are added to the right: `int x = 150 << 3;` declares an integer type variable x and assigns it the value 1200.**  
+    - **The or operator is a single pipe (the vertical line) and performs a bitwise or operation, returning a value containing a 1 in each position in which either of the operands has a 1: `int x = 150 | 15;` declares an integer type variable x and assigns it the value 159.**  
+    - **The and operator is an ampersand that performs a bitwise and operation. And is similar to the bitwise or operator, but it returns a value containing a 1 in each position where both of the operands have a 1: `int x = 150 & 15;` declares an integer type variable x and assigns it the value 6.**  
+    - **The xor operator is a carat and performs a bitwise exclusive or operation, returning a 1 in each bit where there is a 1 in one operand or the other but not both: `int x = 150 ^ 15;` declares an integer type variable x and assigns it the value 153.**
 1. Does C# implement the right-shift (>>) operator? If so, give an example of its operation using valid C# code.  
 **The right shift operator is two consecutive greater than operators (>>) that takes an integer argument and shits the bits that many places to the right. The rightmost bits are discarded and zeros are added to the left: `int x = 150 >> 3;` declares an integer type variable x and assigns it the value 18.**
 1. Explain in detail this code: `bits & (1 << index);`.  
@@ -56,6 +56,6 @@
 (f) permission = 5  
 **Read and Execute/101.**  
 (g) permission = 6  
-**Write and Execute/110.**
+**Write and Execute/110.**  
 (h) permission = 7  
 **Read, Write, and Execute/111.**
