@@ -9,11 +9,11 @@
 1. How do you define an interface?  
 **Defining an interface is syntactically similar to defining a class, except that you use the interface keyword instead of the class keyword. For example, `interface IMyInterface`.**
 1. Can an interface have variables, fields, or properties?  
-**An interface cannot have variables, fields, or properties.**
+**An interface cannot have variables, fields, or properties because an interface cannot implement functionality.**
 1. How do you define a method in an interface?  
 **Within the interface, you declare methods exactly as in a class or a structure, except that you never specify an access modifier (public, private, or protected). Additionally, the methods in an interface have no implementation; they are simply declarations, and all types that implement the interface must provide their own implementations. Consequently, you replace the method body with a semicolon. For example, `double ReturnsDoubleTakesInt(int i);`.**
 1. Can you instantiate an object through an interface? Why or why not?  
-**You cannot create an instance of an abstract class or interface. This is because the interface doesn't contain any functionality, only definitions where functionality will be added by classes that implement it.**
+**You cannot create an instance of an abstract class or interface because the compiler will not let you. This is because the interface doesn't contain any functionality, only definitions where functionality will be added by classes that implement it.**
 1. Using the new keyword, can you declare a reference to an interface?  
 **Maybe I misunderstood the previous question, but this seems like it is asking the same thing with different words. You cannot create an instance of an abstract class or interface (which is what you do with the new keyword). However, you can reference an object by using a variable defined as an interface that the object’s class implements. For example:**  
     ```csharp
