@@ -5,7 +5,7 @@
 #### Date: September 6, 2017
 
 1. What is the difference between a property and a field?  
-**A property is a cross between a field and a method—it looks like a field but acts like a method. You access a property by using exactly the same syntax that you use to access a field. However, the compiler automatically translates this field-like syntax into calls to accessor methods (sometimes referred to as property getters and property setters). One key difference is that a field can be assigned a value without the object being initialized whereas a property cannot be assigned a value until the object is initialized.**
+**A property is a cross between a field and a method—it looks like a field but acts like a method. You access a property by using exactly the same syntax that you use to access a field. However, the compiler automatically translates this field-like syntax into calls to accessor methods (sometimes referred to as property getters and property setters). One key difference is that a field can be assigned a value without the object being initialized whereas a property cannot be assigned a value until the object is initialized. The most important difference is that a property is protected against direct access.**
 1. What is the difference between a property and a method?  
 **See the answer above; basically a property is designed to store data like a field, while implementing accessor methods to keep the field data private while allowing public access to the methods that can modify it.**
 1. What is your understanding of encapsulation?  
