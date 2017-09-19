@@ -1,0 +1,7 @@
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.exe.config
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\bin\Debug\AutomaticProperties.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 15\AutomaticProperties\AutomaticProperties\obj\Debug\AutomaticProperties.pdb
