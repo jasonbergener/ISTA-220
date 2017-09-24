@@ -1,0 +1,7 @@
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\bin\Debug\Login.exe.config
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\bin\Debug\Login.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\bin\Debug\Login.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\obj\Debug\Login.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\obj\Debug\Login.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\Week7GradedExercise\Login\obj\Debug\Login.pdb
