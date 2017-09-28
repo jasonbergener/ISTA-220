@@ -1,7 +1,0 @@
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\obj\Debug\Cipher.csprojResolveAssemblyReference.cache
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\obj\Debug\Cipher.csproj.CoreCompileInputs.cache
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\bin\Debug\Cipher.exe.config
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\bin\Debug\Cipher.exe
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\bin\Debug\Cipher.pdb
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\obj\Debug\Cipher.exe
-C:\Users\jason\Documents\Visual Studio 2017\Projects\Week8GradedExercise\Cipher\obj\Debug\Cipher.pdb
