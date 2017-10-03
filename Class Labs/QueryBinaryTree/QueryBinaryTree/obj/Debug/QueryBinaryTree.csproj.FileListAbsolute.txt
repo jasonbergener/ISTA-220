@@ -1,0 +1,9 @@
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\bin\Debug\QueryBinaryTree.exe.config
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\bin\Debug\QueryBinaryTree.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\bin\Debug\QueryBinaryTree.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\bin\Debug\BinaryTree.dll
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\obj\Debug\QueryBinaryTree.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\obj\Debug\QueryBinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\obj\Debug\QueryBinaryTree.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 21\QueryBinaryTree\QueryBinaryTree\obj\Debug\QueryBinaryTree.pdb

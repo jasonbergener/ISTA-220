@@ -37,6 +37,7 @@ namespace Cards
             try
             {
                 pack = new Pack();
+
                 for (int handNum = 0; handNum < NumHands; handNum++)
                 {
                     hands[handNum] = new Hand();

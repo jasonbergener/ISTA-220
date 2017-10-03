@@ -15778,12 +15778,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 10\\Cards\\Cards\\Cards.csproj",
+      "projectUniqueName": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 18\\Cards\\Cards\\Cards.csproj",
       "projectName": "Cards",
-      "projectPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 10\\Cards\\Cards\\Cards.csproj",
-      "projectJsonPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 10\\Cards\\Cards\\project.json",
+      "projectPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 18\\Cards\\Cards\\Cards.csproj",
+      "projectJsonPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 18\\Cards\\Cards\\project.json",
       "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 10\\Cards\\Cards\\obj\\",
+      "outputPath": "C:\\Users\\jason\\Documents\\Microsoft Press\\VCSBS\\Chapter 18\\Cards\\Cards\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",

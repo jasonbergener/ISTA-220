@@ -1,0 +1,7 @@
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\bin\Debug\ComplexNumbers.exe.config
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\bin\Debug\ComplexNumbers.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\bin\Debug\ComplexNumbers.pdb
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\obj\Debug\ComplexNumbers.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\obj\Debug\ComplexNumbers.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\obj\Debug\ComplexNumbers.exe
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 22\ComplexNumbers\ComplexNumbers\obj\Debug\ComplexNumbers.pdb

@@ -1,29 +1,34 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Cards
-{	
-	class Pack
-	{
+{
+    class Pack
+    {
         public const int NumSuits = 4;
         public const int CardsPerSuit = 13;
-        private PlayingCard[,] cardPack;
+        private Dictionary<Suit, List<PlayingCard>> cardPack;
         private Random randomCardSelector = new Random();
 
         public Pack()
         {
-            this.cardPack = new PlayingCard[NumSuits, CardsPerSuit];
+            this.cardPack = new Dictionary<Suit, List<PlayingCard>>(NumSuits);
+
             for (Suit suit = Suit.Clubs; suit <= Suit.Spades; suit++)
             {
+                List<PlayingCard> cardsInSuit = new List<PlayingCard>(CardsPerSuit);
                 for (Value value = Value.Two; value <= Value.Ace; value++)
                 {
-                    this.cardPack[(int)suit, (int)value] = new PlayingCard(suit, value);
+                    cardsInSuit.Add(new PlayingCard(suit, value)); ;
                 }
+                this.cardPack.Add(suit, cardsInSuit);
             }
         }
 
         public PlayingCard DealCardFromPack()
         {
             Suit suit = (Suit)randomCardSelector.Next(NumSuits);
+
             while (this.IsSuitEmpty(suit))
             {
                 suit = (Suit)randomCardSelector.Next(NumSuits);
@@ -35,8 +40,11 @@ namespace Cards
                 value = (Value)randomCardSelector.Next(CardsPerSuit);
             }
 
-            PlayingCard card = this.cardPack[(int)suit, (int)value];
-            this.cardPack[(int)suit, (int)value] = null;
+            //PlayingCard card = this.cardPack[(int)suit, (int)value];
+            //this.cardPack[(int)suit, (int)value] = null;
+            List<PlayingCard> cardsInSuit = this.cardPack[suit];
+            PlayingCard card = cardsInSuit.Find(c => c.CardValue == value);
+            cardsInSuit.Remove(card);
             return card;
         }
 
@@ -47,13 +55,20 @@ namespace Cards
             {
                 if (!IsCardAlreadyDealt(suit, value))
                 {
-                    result = false; break;
+                    result = false;
+                    break;
                 }
             }
+
             return result;
+
         }
 
         private bool IsCardAlreadyDealt(Suit suit, Value value)
-            => (this.cardPack[(int)suit, (int)value] == null);
+        {
+            //return (this.cardPack[(int)suit, (int)value] == null);
+            List<PlayingCard> cardsInSuit = this.cardPack[suit];
+            return (!cardsInSuit.Exists(c => c.CardSuit == suit && c.CardValue == value));
+        }
     }
 }

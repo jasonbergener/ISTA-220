@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="615c1437-17c7-4d34-9ed7-c9ecb9435030"
+    Name="398afb74-4f3d-43b4-9563-6f7984b99419"
     Publisher="CN=Student"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="615c1437-17c7-4d34-9ed7-c9ecb9435030" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="398afb74-4f3d-43b4-9563-6f7984b99419" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Cards</DisplayName>

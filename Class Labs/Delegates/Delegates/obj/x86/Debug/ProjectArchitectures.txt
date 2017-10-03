@@ -1,0 +1,8 @@
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\AuditService\AuditService.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\CheckoutService\CheckoutService.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\Delegates\Delegates.csproj;x86
+C:\Users\jason\Documents\Microsoft Press\VCSBS\Chapter 20\Delegates\DeliveryService\DeliveryService.csproj;x86
