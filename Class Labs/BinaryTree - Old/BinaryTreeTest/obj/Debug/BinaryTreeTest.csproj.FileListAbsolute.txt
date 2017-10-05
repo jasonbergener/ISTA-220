@@ -1,0 +1,9 @@
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\bin\Debug\BinaryTreeTest.exe.config
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\bin\Debug\BinaryTreeTest.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\bin\Debug\BinaryTreeTest.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\bin\Debug\BinaryTree.dll
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\bin\Debug\BinaryTree.pdb
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\obj\Debug\BinaryTreeTest.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\obj\Debug\BinaryTreeTest.csproj.CoreCompileInputs.cache
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\obj\Debug\BinaryTreeTest.exe
+C:\Users\jason\Documents\Visual Studio 2017\Projects\BinaryTree\BinaryTreeTest\obj\Debug\BinaryTreeTest.pdb
